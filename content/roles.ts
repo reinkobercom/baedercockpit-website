@@ -41,7 +41,7 @@ export const roles: Role[] = [
     benefits: [
       { icon: "heart", title: "Stammgäste binden", text: "Punkte pro Besuch sorgen für mehr Besuche pro Jahr." },
       { icon: "plug", title: "Bestehende Kasse bleibt", text: "Keine neue Hardware, keine Großinvestition." },
-      { icon: "shield", title: "Datenschutz von Anfang an", text: "DSGVO-konform, Hosting in Deutschland." },
+      { icon: "shield", title: "Datenschutz von Anfang an", text: "DSGVO-konform, Ihre Daten liegen in Deutschland." },
     ],
     mockup: "report",
   },

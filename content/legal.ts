@@ -161,6 +161,7 @@ export const datenschutz: { title: string; intro: string; updated: string; secti
             "Die Verarbeitung ist technisch erforderlich, um Ihnen die Website anzuzeigen, sowie um die Stabilität und Sicherheit des Angebots zu gewährleisten (z. B. Abwehr von Angriffen und Fehleranalyse). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in der zuverlässigen und sicheren Bereitstellung der Website.",
             "Vercel verarbeitet diese Daten in unserem Auftrag. Wir haben mit Vercel einen Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO abgeschlossen. Die Logdaten werden von Vercel nur für begrenzte Zeit gespeichert und anschließend gelöscht.",
             "Vercel ist ein Unternehmen mit Sitz in den USA, sodass Daten in die USA übermittelt werden können. Vercel ist unter dem EU-U.S. Data Privacy Framework zertifiziert. Für zertifizierte Unternehmen besteht ein Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO). Weitere Informationen: https://vercel.com/legal/privacy-policy",
+            "Hinweis: Dieser Abschnitt betrifft nur diese Website. Die Software BäderCockpit selbst und alle darin verarbeiteten Daten von Bädern, Mitarbeitenden und Gästen werden auf Servern in Deutschland gehostet.",
           ],
         },
       ],

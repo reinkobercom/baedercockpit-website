@@ -28,7 +28,7 @@ export function mailHref(address: string) {
 export const trust = [
   { icon: "waves", label: "Aus dem Bäderbetrieb entwickelt" },
   { icon: "shield", label: "DSGVO-konform" },
-  { icon: "server", label: "Hosting in Deutschland" },
+  { icon: "server", label: "Ihre Daten liegen in Deutschland" },
   { icon: "clipboard", label: "Betriebstagebuch nach DIN 19643" },
 ] as const;
 
@@ -71,7 +71,7 @@ export const security = {
   title: "Gebaut für öffentliche Betreiber.",
   items: [
     { icon: "shield", title: "DSGVO-konform", text: "Auftragsverarbeitungsvertrag inklusive." },
-    { icon: "server", title: "Hosting in Deutschland", text: "Ihre Daten bleiben in der EU." },
+    { icon: "server", title: "Daten in Deutschland", text: "Die Software läuft auf Servern in Deutschland – Ihre Betriebs- und Gästedaten bleiben dort." },
     { icon: "clipboard", title: "DIN 19643", text: "Betriebstagebuch nach der geltenden Norm." },
     { icon: "key", title: "Rollen und Rechte", text: "Jeder sieht nur, was er braucht." },
   ],

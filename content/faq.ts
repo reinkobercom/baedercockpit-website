@@ -28,7 +28,7 @@ export const faq = [
   },
   {
     q: "Wo liegen unsere Daten?",
-    a: "Auf Servern in Deutschland, DSGVO-konform mit Auftragsverarbeitungsvertrag.",
+    a: "Alle Daten der Software liegen auf Servern in Deutschland – DSGVO-konform und mit Auftragsverarbeitungsvertrag.",
   },
   {
     q: "Wie lange dauert die Einführung?",
