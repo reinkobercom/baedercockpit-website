@@ -1,7 +1,6 @@
 import { DevBadge } from "@/components/ui/Badge";
 import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
-import { Txt } from "@/components/ui/Txt";
 import { Eyebrow, Heading, Section } from "@/components/ui/Section";
 import { roadmap, roadmapItems } from "@/content/features";
 
@@ -26,11 +25,6 @@ export function Roadmap() {
                 </div>
                 <h3 className="t-h3 hyphens-auto break-words text-navy">{f.roadmap.title}</h3>
                 <p className="mt-2 text-muted">{f.roadmap.text}</p>
-                {f.roadmap.quarter && (
-                  <p className="mt-auto pt-5 text-[13px] font-bold text-muted">
-                    <Txt>{f.roadmap.quarter}</Txt>
-                  </p>
-                )}
               </div>
             </Reveal>
           </li>

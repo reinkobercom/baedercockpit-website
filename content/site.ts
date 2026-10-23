@@ -1,4 +1,4 @@
-/** Zentrale Texte und Einstellungen. Platzhalter in [eckigen Klammern] füllt der Auftraggeber. */
+/** Zentrale Texte und Einstellungen. */
 export const site = {
   name: "BäderCockpit",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://baedercockpit.de",
@@ -28,7 +28,7 @@ export function mailHref(address: string) {
 export const trust = [
   { icon: "waves", label: "Aus dem Bäderbetrieb entwickelt" },
   { icon: "shield", label: "DSGVO-konform" },
-  { icon: "server", label: "Hosting in Deutschland", note: "[vor Livegang bestätigen]" },
+  { icon: "server", label: "Hosting in Deutschland" },
   { icon: "clipboard", label: "Betriebstagebuch nach DIN 19643" },
 ] as const;
 
@@ -70,8 +70,8 @@ export const security = {
   eyebrow: "Sicherheit",
   title: "Gebaut für öffentliche Betreiber.",
   items: [
-    { icon: "shield", title: "DSGVO-konform", text: "Auftragsverarbeitungsvertrag inklusive.", note: "[bestätigen]" },
-    { icon: "server", title: "Hosting in Deutschland", text: "Ihre Daten bleiben in der EU.", note: "[bestätigen]" },
+    { icon: "shield", title: "DSGVO-konform", text: "Auftragsverarbeitungsvertrag inklusive." },
+    { icon: "server", title: "Hosting in Deutschland", text: "Ihre Daten bleiben in der EU." },
     { icon: "clipboard", title: "DIN 19643", text: "Betriebstagebuch nach der geltenden Norm." },
     { icon: "key", title: "Rollen und Rechte", text: "Jeder sieht nur, was er braucht." },
   ],
@@ -79,11 +79,12 @@ export const security = {
 
 export const founder = {
   eyebrow: "Wer dahintersteht",
-  title: "Aus dem Bäderbetrieb. Für den Bäderbetrieb.",
-  quote: "[Zitat des Gründers, max. 25 Wörter – z. B. warum er BäderCockpit baut]",
+  title: "Aus der Branche. Für die Branche.",
+  quote: "Wir kennen den Alltag im Bad. Deshalb bauen wir die Software, die wir uns selbst immer gewünscht haben.",
+  quoteBy: "Philipp & Simon, Gründer von BäderCockpit",
   people: [
-    { name: "[Name]", role: "Betriebsleiter und Marketingleiter, [Bad, Ort]" },
-    { name: "[Name]", role: "[Rolle]" },
+    { name: "Philipp", role: "Marketingleiter & Badleitung in einem Schwimmbad" },
+    { name: "Simon", role: "Marketing & Entwicklung" },
   ],
 };
 
@@ -92,5 +93,5 @@ export const demo = {
   title: "Sehen Sie BäderCockpit in",
   titleAccent: "30 Minuten.",
   points: ["Live-Demo für Ihre Rolle", "Ihre Fragen zu Kasse und Datenschutz", "Unverbindlich und online"],
-  success: "Danke! Wir melden uns innerhalb von [1 Werktag] mit Terminvorschlägen.",
+  success: "Danke! Wir melden uns innerhalb eines Werktags mit Terminvorschlägen.",
 };

@@ -1,6 +1,5 @@
 import { Icon } from "@/components/ui/Icon";
 import { Reveal } from "@/components/ui/Reveal";
-import { Txt } from "@/components/ui/Txt";
 import { Eyebrow, Heading, Section } from "@/components/ui/Section";
 import { security } from "@/content/site";
 
@@ -23,12 +22,6 @@ export function Security() {
                   <h3 className="t-h3 text-navy">{s.title}</h3>
                   <p className="mt-1.5 text-muted">
                     {s.text}
-                    {s.note && (
-                      <>
-                        {" "}
-                        <Txt>{s.note}</Txt>
-                      </>
-                    )}
                   </p>
                 </div>
               </Reveal>

@@ -30,7 +30,7 @@ export type Feature = {
   others: Record<CategoryId, Status>;
   bc: Status;
   bcNote?: string;
-  roadmap?: { title: string; text: string; icon: string; quarter?: string };
+  roadmap?: { title: string; text: string; icon: string };
 };
 
 const n = (o: Partial<Record<CategoryId, Status>>): Record<CategoryId, Status> => ({
@@ -54,7 +54,7 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
         label: "Punkte automatisch pro Besuch",
         others: n({ loyalty: "partial" }),
         bc: "dev",
-        roadmap: { icon: "plug", title: "Kassen-Schnittstellen", text: "Besuche lösen automatisch Punkte aus.", quarter: "[Quartal]" },
+        roadmap: { icon: "plug", title: "Kassen-Schnittstellen", text: "Besuche lösen automatisch Punkte aus." },
       },
       { id: "einloesen", label: "Punkte in der Gastronomie einlösen", others: n({ kasse: "partial", loyalty: "partial" }), bc: "yes" },
       {
@@ -62,7 +62,7 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
         label: "Live-Auslastung in der App",
         others: n({ kasse: "partial", ticketing: "partial" }),
         bc: "dev",
-        roadmap: { icon: "activity", title: "Live-Auslastung", text: "Gäste sehen in der App, wie voll es ist.", quarter: "[Quartal]" },
+        roadmap: { icon: "activity", title: "Live-Auslastung", text: "Gäste sehen in der App, wie voll es ist." },
       },
     ],
   },
@@ -87,7 +87,6 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
           icon: "badge",
           title: "Qualifikationsnachweise",
           text: "Rettungsschwimmer und Unterweisungen mit Ablaufdatum im Dienstplan.",
-          quarter: "[Quartal]",
         },
       },
     ],
@@ -106,7 +105,6 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
           icon: "gauge",
           title: "Automatische Messwerte",
           text: "Direkt aus der Mess- und Regeltechnik ins Betriebstagebuch.",
-          quarter: "[Quartal]",
         },
       },
     ],

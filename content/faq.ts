@@ -4,7 +4,7 @@ export const faqIntro = {
   text: "Ihre Frage ist nicht dabei? Wir beantworten sie gern im Demo-Gespräch.",
 };
 
-/** Platzhalter in [Klammern] vor Livegang ersetzen. Preise werden bewusst nicht genannt. */
+/** Preise werden bewusst nicht genannt. */
 export const faq = [
   {
     q: "Müssen wir unsere Kasse austauschen?",
@@ -24,18 +24,18 @@ export const faq = [
   },
   {
     q: "Brauchen unsere Gäste eine eigene App?",
-    a: "Ihre Gäste nutzen eine App im Design Ihres Bades. [iOS/Android/Web-App vor Livegang festlegen]",
+    a: "Ihre Gäste nutzen eine App im Design Ihres Bades.",
   },
   {
     q: "Wo liegen unsere Daten?",
-    a: "Auf Servern in Deutschland, DSGVO-konform mit Auftragsverarbeitungsvertrag. [bestätigen]",
+    a: "Auf Servern in Deutschland, DSGVO-konform mit Auftragsverarbeitungsvertrag.",
   },
   {
     q: "Wie lange dauert die Einführung?",
-    a: "Wir richten BäderCockpit gemeinsam mit Ihnen ein und schulen Ihr Team. [Dauer ergänzen]",
+    a: "Wir richten BäderCockpit gemeinsam mit Ihnen ein und schulen Ihr Team.",
   },
   {
     q: "Wie wird Trinkgeld abgerechnet?",
-    a: "Das Trinkgeld geht an das Team, das Sie festlegen. Die Abwicklung mit Ihrer Gastronomie besprechen wir gemeinsam. [nach steuerlicher Prüfung finalisieren]",
+    a: "Das Trinkgeld geht an das Team, das Sie festlegen. Die Abwicklung mit Ihrer Gastronomie besprechen wir gemeinsam.",
   },
 ];

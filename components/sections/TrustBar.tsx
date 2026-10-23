@@ -1,5 +1,4 @@
 import { Icon } from "@/components/ui/Icon";
-import { Txt } from "@/components/ui/Txt";
 import { trust } from "@/content/site";
 
 export function TrustBar() {
@@ -13,11 +12,6 @@ export function TrustBar() {
             </span>
             <span className="text-[14px] font-bold leading-snug text-navy sm:text-[15px]">
               {t.label}
-              {"note" in t && t.note && (
-                <span className="mt-0.5 block text-[11px] font-normal">
-                  <Txt>{t.note}</Txt>
-                </span>
-              )}
             </span>
           </li>
         ))}
