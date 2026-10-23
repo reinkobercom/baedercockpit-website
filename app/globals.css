@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* ---------- Design-Tokens (CI BäderCockpit, siehe CLAUDE.md Kap. 3) ---------- */
+@theme {
+  --color-navy: #0b3a5b;
+  --color-navy-900: #072a42;
+  --color-petrol: #1b8aa6;
+  --color-hellblau: #8fd3e3;
+  --color-eisblau: #e8f4f8;
+  --color-weiss: #ffffff;
+  --color-muted: #4a6478;
+  --color-line: #d5e7ee;
+  --color-success: #2e9e6b;
+  --color-warning: #e0a030;
+
+  --font-sans: var(--font-lato), "Carlito", system-ui, sans-serif;
+
+  --radius-card: 20px;
+  --radius-btn: 12px;
+  --radius-frame: 24px;
+
+  --shadow-soft: 0 1px 2px rgba(11, 58, 91, 0.06), 0 12px 32px rgba(11, 58, 91, 0.08);
+  --shadow-lift: 0 2px 4px rgba(11, 58, 91, 0.06), 0 24px 64px rgba(11, 58, 91, 0.14);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-weiss);
+    color: var(--color-navy);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  @media (min-width: 768px) {
+    body { font-size: 17px; }
+  }
+  ::selection {
+    background: var(--color-hellblau);
+    color: var(--color-navy);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-petrol);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-bc {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 16px;
+  }
+  @media (min-width: 640px) {
+    .container-bc { padding-inline: 24px; }
+  }
+  .section-y {
+    padding-block: 72px;
+  }
+  @media (min-width: 1024px) {
+    .section-y { padding-block: 128px; }
+  }
+  .t-display {
+    font-weight: 900;
+    font-size: clamp(2.5rem, 1.6rem + 3.6vw, 4rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .t-h2 {
+    font-weight: 700;
+    font-size: clamp(1.875rem, 1.4rem + 1.8vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+  }
+  .t-h3 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+  @media (min-width: 768px) {
+    .t-h3 { font-size: 1.375rem; }
+  }
+  .body-l {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+  @media (min-width: 768px) {
+    .body-l { font-size: 1.25rem; }
+  }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+}
+
+/* Dezentes Wasser-Raster im Hero */
+.hero-glow {
+  background:
+    radial-gradient(60% 60% at 85% 20%, rgba(143, 211, 227, 0.35) 0%, rgba(143, 211, 227, 0) 70%),
+    radial-gradient(50% 50% at 10% 90%, rgba(232, 244, 248, 1) 0%, rgba(232, 244, 248, 0) 70%),
+    linear-gradient(180deg, #ffffff 0%, #f5fafc 100%);
+}
