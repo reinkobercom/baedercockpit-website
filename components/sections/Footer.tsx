@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/brand/Logo";
-import { Txt } from "@/components/ui/Txt";
+import { brandNotice } from "@/content/legal";
 import { mailHref, site } from "@/content/site";
 
 export function Footer() {
@@ -26,7 +26,7 @@ export function Footer() {
       </div>
       <div className="container-bc mt-10">
         <p className="border-t border-white/10 pt-6 text-[13px] text-white/55">
-          © {year} BäderCockpit · <Txt dark>{site.company}</Txt>
+          © {year} BäderCockpit · {brandNotice}
         </p>
       </div>
     </footer>

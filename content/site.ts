@@ -13,10 +13,10 @@ export const site = {
     reassuranceShort: "30 Min · unverbindlich",
   },
   contact: {
-    email: "[kontakt@baedercockpit.de]",
-    demoEmail: "[demo@baedercockpit.de]",
+    email: "kontakt@reinkober.com",
+    demoEmail: "kontakt@reinkober.com",
   },
-  company: "[Rechtsform/Firmenname]",
+  company: "RX2 Marketing GmbH",
 };
 
 /** Liefert eine mailto-Adresse nur, wenn der Platzhalter ersetzt wurde. */
