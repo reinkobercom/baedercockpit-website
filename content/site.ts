@@ -34,7 +34,7 @@ export const trust = [
 
 export const problem = {
   eyebrow: "Der Alltag im Bad",
-  title: "Vier Tools. Zettel. Excel. Und zu wenig Personal.",
+  title: "Viele Tools. Zettel. Excel. Und zu wenig Personal.",
   cards: [
     { icon: "sheet", text: "Dienstplan per Excel, Tausch per WhatsApp" },
     { icon: "notebook", text: "Messwerte auf Papier, Lücken fallen spät auf" },
@@ -83,7 +83,7 @@ export const founder = {
   quote: "Wir kennen den Alltag im Bad. Deshalb bauen wir die Software, die wir uns selbst immer gewünscht haben.",
   quoteBy: "Philipp & Simon, Gründer von BäderCockpit",
   people: [
-    { name: "Philipp", role: "Marketingleiter & Badleitung in einem Schwimmbad" },
+    { name: "Philipp", role: "Marketing- & Betriebsleiter eines Freizeitbades" },
     { name: "Simon", role: "Marketing & Entwicklung" },
   ],
 };

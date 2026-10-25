@@ -24,10 +24,10 @@ export const roles: Role[] = [
     icon: "dashboard",
     title: "Betriebsleitung",
     ctaLabel: "Betriebsleitung",
-    headline: "Ihr Betrieb auf einen Blick.",
+    headline: "Ihr Betrieb und Ihr gesamtes Team auf einen Blick.",
     benefits: [
-      { icon: "layers", title: "Ein Login statt vier Tools", text: "Dienstplan, Messungen und Gäste an einem Ort." },
-      { icon: "users", title: "Aufsicht sicher planen", text: "Mindestbesetzung pro Becken, Lücken werden sofort sichtbar." },
+      { icon: "layers", title: "Ein Login statt vieler Tools", text: "Dienstplan, Messungen und Gäste an einem Ort." },
+      { icon: "users", title: "Team sicher planen", text: "Mindestbesetzung pro Becken, Lücken werden sofort sichtbar." },
       { icon: "repeat", title: "Schichttausch ohne Telefonkette", text: "Das Team tauscht, Sie geben frei." },
     ],
     mockup: "cockpit",

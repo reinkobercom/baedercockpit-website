@@ -177,7 +177,7 @@ Keine Fremdlogos, keine Kundenlogos.
 
 ### 6.4 Problem (Navy, zentriert)
 - Eyebrow (Hellblau): `DER ALLTAG IM BAD`
-- H2 (Weiß): **Vier Tools. Zettel. Excel. Und zu wenig Personal.**
+- H2 (Weiß): **Viele Tools. Zettel. Excel. Und zu wenig Personal.**
 - Drei Karten nebeneinander (Navy-Karten mit 1 px Hellblau-Rand 20 % Deckkraft), je Icon + eine Zeile:
   - *Dienstplan per Excel, Tausch per WhatsApp*
   - *Messwerte auf Papier, Lücken fallen spät auf*
@@ -210,9 +210,9 @@ Keine Fremdlogos, keine Kundenlogos.
 **Inhalte:**
 
 **1 · Betriebsleitung** (Icon: Layout-Dashboard)
-Headline: *Ihr Betrieb auf einen Blick.*
-- **Ein Login statt vier Tools** – Dienstplan, Messungen und Gäste an einem Ort.
-- **Aufsicht sicher planen** – Mindestbesetzung pro Becken, Lücken werden sofort sichtbar.
+Headline: *Ihr Betrieb und Ihr gesamtes Team auf einen Blick.*
+- **Ein Login statt vieler Tools** – Dienstplan, Messungen und Gäste an einem Ort.
+- **Team sicher planen** – Mindestbesetzung pro Becken, Lücken werden sofort sichtbar.
 - **Schichttausch ohne Telefonkette** – das Team tauscht, Sie geben frei.
 Mockup: Cockpit-Übersicht.
 
