@@ -13,8 +13,8 @@ export const site = {
     reassuranceShort: "30 Min · unverbindlich",
   },
   contact: {
-    email: "kontakt@reinkober.com",
-    demoEmail: "kontakt@reinkober.com",
+    email: "info@baedercockpit.de",
+    demoEmail: "info@baedercockpit.de",
   },
   company: "RX2 Marketing GmbH",
 };
