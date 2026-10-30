@@ -38,7 +38,7 @@ export const impressum: { title: string; intro: string; sections: LegalBlock[] }
       lines: [
         "Stockumer Straße 30",
         "59368 Werne",
-        "E-Mail: kontakt@reinkober.com",
+        "E-Mail: info@baedercockpit.de",
         "Telefon: +4916096088604",
         "Registergericht: Dortmund",
         "Registernummer: HRB35256",
