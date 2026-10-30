@@ -194,7 +194,7 @@ Keine Fremdlogos, keine Kundenlogos.
 | Modul | Titel | Beschreibung (eine Zeile) | Mockup |
 |---|---|---|---|
 | 1 | **Gäste-App** | Punkte für jeden Besuch und jede Empfehlung – im Design Ihres Bades. | Smartphone: Punktestand, Prämien, „Freund einladen“ |
-| 2 | **Trinkgeld** | Gäste geben Trinkgeld per App – direkt an das Team ihrer Wahl. | Smartphone: „Trinkgeld an das Gastro-Team“, Team-Auswahl (Gastro / Aufsicht / Sauna / Ganzes Team), Beträge 2 € / 5 € / 10 €, „Ihr Dankeschön +50 P“ |
+| 2 | **Trinkgeld** | Gäste geben Trinkgeld per App – direkt an das Team ihrer Wahl. | Smartphone: „Trinkgeld an das Gastro-Team“, Team-Auswahl (Gastro / Aufsicht / Sauna / Ganzes Team), Beträge 2 € / 5 € / 10 €, Zahlungsarten PayPal / Apple Pay / Google Pay / Karte (keine Punkte im Trinkgeld-Screen) |
 | 3 | **Dienstplan** | Dienste planen, tauschen, Mindestbesetzung pro Becken im Blick. | Tablet/Desktop: Wochenplan, eine Tauschanfrage, Hinweis „Sportbecken 14–16 Uhr: 1 Aufsicht fehlt“ |
 | 4 | **Betriebstagebuch** | Messungen nach DIN 19643 – mit Erinnerung und Hinweis bei Abweichung. | Smartphone/Tablet: Messung erfassen (freies Chlor, gebundenes Chlor, pH, Redox), Verlaufskurve, Warnhinweis gelb |
 
@@ -472,7 +472,7 @@ lib/
 ## 9. Harte Regeln (nicht verhandelbar)
 
 1. **Keine erfundenen Belege:** keine Kundenlogos, keine Testimonials, keine Prozent- oder Wachstumsversprechen („+30 % Besuche“), keine Nutzerzahlen. Zahlen nur in klar fiktiven Mockups.
-2. **Keine Fremdlogos und keine Anbieternamen** (Kassenhersteller, Wettbewerber) – Vergleich nur nach Kategorien.
+2. **Keine Fremdlogos und keine Anbieternamen** (Kassenhersteller, Wettbewerber) – Vergleich nur nach Kategorien. Ausnahme: Zahlungsarten (PayPal, Apple Pay, Google Pay, Karte) dürfen im Trinkgeld-Mockup als Text genannt werden.
 3. **Keine Preise**, nirgends.
 4. **Entwicklungsstatus ehrlich zeigen:** Was in Kapitel 6.9/6.10 als „In Entwicklung“ markiert ist, erscheint überall mit diesem Badge.
 5. **Ein CTA-Text:** „Demo vereinbaren“ (einzige Variante: „Demo für [Rolle] vereinbaren“ im Rollen-Auswähler).

@@ -1,4 +1,4 @@
-import { ChevronRight, Coffee, Gift, Heart, Ticket, UserPlus, Waves } from "lucide-react";
+import { ChevronRight, Coffee, CreditCard, Gift, Heart, Ticket, UserPlus, Waves } from "lucide-react";
 import { Avatar, BadMark } from "./Frames";
 
 /** White-Label-Gäste-App. Fiktives Bad, fiktive Gäste. */
@@ -137,9 +137,21 @@ function Tip() {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-between rounded-xl bg-eisblau px-3 py-2.5">
-        <span className="text-[11px] font-bold">Ihr Dankeschön</span>
-        <span className="rounded-lg bg-white px-2 py-1 text-[11px] font-black text-navy ring-1 ring-line">+50 P</span>
+      <div className="rounded-xl bg-eisblau px-3 py-2.5">
+        <p className="mb-1.5 text-[10px] font-bold text-muted">Bezahlen mit</p>
+        <div className="grid grid-cols-2 gap-1.5">
+          {["PayPal", "Apple Pay", "Google Pay", "Karte"].map((m, i) => (
+            <span
+              key={m}
+              className={`flex items-center justify-center gap-1 whitespace-nowrap rounded-lg py-1.5 text-[10.5px] font-black ${
+                i === 1 ? "bg-navy text-white" : "bg-white text-navy ring-1 ring-line"
+              }`}
+            >
+              {m === "Karte" && <CreditCard size={11} strokeWidth={2.25} />}
+              {m}
+            </span>
+          ))}
+        </div>
       </div>
       <div className="mt-auto flex items-center justify-center gap-2 rounded-xl bg-petrol py-2.5 text-[12px] font-bold text-white">
         <Heart size={14} strokeWidth={2.25} /> 5 € Danke senden
