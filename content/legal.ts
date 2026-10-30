@@ -22,7 +22,7 @@ export const company = {
   name: "RX2 Marketing GmbH",
   street: "Stockumer Straße 30",
   city: "59368 Werne",
-  email: "kontakt@reinkober.com",
+  email: "info@baedercockpit.de",
   phone: "+4916096088604",
   ceo: "Simon Reinkober",
 };
@@ -95,7 +95,7 @@ export const datenschutz: { title: string; intro: string; updated: string; secti
         "59368 Werne",
         "Deutschland",
         "Vertreten durch den Geschäftsführer Simon Reinkober",
-        "E-Mail: kontakt@reinkober.com",
+        "E-Mail: info@baedercockpit.de",
         "Telefon: +4916096088604",
       ],
       sub: [
@@ -235,7 +235,7 @@ export const datenschutz: { title: string; intro: string; updated: string; secti
           heading: "Widerspruchsrecht nach Art. 21 DSGVO",
           paragraphs: [
             "Soweit wir Ihre Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO verarbeiten, haben Sie das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen diese Verarbeitung einzulegen. Wir verarbeiten Ihre Daten dann nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.",
-            "Zur Ausübung Ihrer Rechte genügt eine formlose Nachricht an kontakt@reinkober.com.",
+            "Zur Ausübung Ihrer Rechte genügt eine formlose Nachricht an info@baedercockpit.de.",
           ],
         },
         {
