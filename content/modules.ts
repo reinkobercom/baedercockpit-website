@@ -16,7 +16,7 @@ export const modules = [
     id: "trinkgeld",
     icon: "coins",
     title: "Trinkgeld",
-    text: "Gäste sagen Danke – mit Punkten oder Geld, direkt ans Team.",
+    text: "Gäste geben Trinkgeld per App – direkt an das Team ihrer Wahl.",
     mockup: "guest-tip",
   },
   {

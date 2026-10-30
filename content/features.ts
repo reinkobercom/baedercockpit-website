@@ -70,7 +70,10 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
     title: "Gastronomie & Trinkgeld",
     features: [
       { id: "trinkgeld", label: "Digitales Trinkgeld", others: n({ trinkgeld: "yes" }), bc: "yes" },
-      { id: "trinkgeld-punkte", label: "Trinkgeld mit Punkten", others: n({}), bc: "yes" },
+      { id: "trinkgeld-teams", label: "Trinkgeld an einzelne Teams", others: n({ trinkgeld: "partial" }), bc: "yes" },
+      { id: "trinkgeld-armband", label: "Trinkgeld auch bei Armband- oder Coin-Bezahlung", others: n({ trinkgeld: "partial" }), bc: "yes" },
+      { id: "trinkgeld-export", label: "Aufstellung für die Lohnabrechnung", others: n({ trinkgeld: "partial" }), bc: "dev" },
+      { id: "trinkgeld-dank", label: "Bonuspunkte als Dankeschön für Trinkgeld", others: n({}), bc: "yes" },
     ],
   },
   {

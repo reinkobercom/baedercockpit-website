@@ -67,7 +67,7 @@ export const roles: Role[] = [
     benefits: [
       { icon: "smartphone", title: "Ihre eigene App", text: "Im Look Ihres Bades, mit Ihrem Logo." },
       { icon: "coffee", title: "Punkte am Kiosk einlösen", text: "Kaffee, Snack, Saunaaufguss." },
-      { icon: "coins", title: "Trinkgeld fürs Team", text: "Digital, mit Punkten oder Geld." },
+      { icon: "coins", title: "Trinkgeld fürs Team", text: "Per App, auch wenn im Bad mit Armband bezahlt wird." },
     ],
     mockup: "guest-rewards",
   },

@@ -17,7 +17,7 @@ Baue einen hochwertigen, sehr aufgeräumten **One-Pager** (plus Impressum und Da
 | Modul | Kurz | Kernnutzen |
 |---|---|---|
 | **Gäste-App** (White Label) | Punkte pro Besuch und für Empfehlungen, Einlösung am Kiosk/in der Gastro | Mehr Besuche pro Gast, höherer Umsatz pro Besuch |
-| **Trinkgeld** | Gäste geben Punkte oder Geld als Trinkgeld an das Team | Wertschätzung für Personal, das heute leer ausgeht |
+| **Trinkgeld** | Gäste geben per App Geld als Trinkgeld an ein Team ihrer Wahl (unabhängig von Armband/Coins); Bonuspunkte gibt es nur als Dankeschön, Punkte sind **kein** Trinkgeld | Wertschätzung für Personal, das heute leer ausgeht |
 | **Dienstplan** | Dienste einsehen, planen, tauschen; Mindestbesetzung pro Becken | Weniger Telefonketten, sichere Aufsicht |
 | **Betriebstagebuch** | Messungen (freies/gebundenes Chlor, pH, Redox) nach DIN 19643, Erinnerungen, Hinweise bei Grenzwerten | Lückenlose Dokumentation, schnelle Reaktion |
 
@@ -194,7 +194,7 @@ Keine Fremdlogos, keine Kundenlogos.
 | Modul | Titel | Beschreibung (eine Zeile) | Mockup |
 |---|---|---|---|
 | 1 | **Gäste-App** | Punkte für jeden Besuch und jede Empfehlung – im Design Ihres Bades. | Smartphone: Punktestand, Prämien, „Freund einladen“ |
-| 2 | **Trinkgeld** | Gäste sagen Danke – mit Punkten oder Geld, direkt ans Team. | Smartphone: „Trinkgeld an das Kiosk-Team“, Betragsauswahl 1 € / 2 € / 5 € oder 200 Punkte |
+| 2 | **Trinkgeld** | Gäste geben Trinkgeld per App – direkt an das Team ihrer Wahl. | Smartphone: „Trinkgeld an das Gastro-Team“, Team-Auswahl (Gastro / Aufsicht / Sauna / Ganzes Team), Beträge 2 € / 5 € / 10 €, „Ihr Dankeschön +50 P“ |
 | 3 | **Dienstplan** | Dienste planen, tauschen, Mindestbesetzung pro Becken im Blick. | Tablet/Desktop: Wochenplan, eine Tauschanfrage, Hinweis „Sportbecken 14–16 Uhr: 1 Aufsicht fehlt“ |
 | 4 | **Betriebstagebuch** | Messungen nach DIN 19643 – mit Erinnerung und Hinweis bei Abweichung. | Smartphone/Tablet: Messung erfassen (freies Chlor, gebundenes Chlor, pH, Redox), Verlaufskurve, Warnhinweis gelb |
 
@@ -234,7 +234,7 @@ Mockup: Betriebstagebuch.
 Headline: *Gäste, die wiederkommen.*
 - **Ihre eigene App** – im Look Ihres Bades, mit Ihrem Logo.
 - **Punkte am Kiosk einlösen** – Kaffee, Snack, Saunaaufguss.
-- **Trinkgeld fürs Team** – digital, mit Punkten oder Geld.
+- **Trinkgeld fürs Team** – per App, auch wenn im Bad mit Armband bezahlt wird.
 Mockup: Gäste-App mit Prämien.
 
 ### 6.7 So funktioniert es
@@ -283,7 +283,10 @@ Mockup: Gäste-App mit Prämien.
 | Live-Auslastung in der App | ◐ | ◐ | – | – | – | – | ◔ |
 | **Gastronomie & Trinkgeld** | | | | | | | |
 | Digitales Trinkgeld | – | – | – | – | – | ● | ● |
-| Trinkgeld mit Punkten | – | – | – | – | – | – | ● |
+| Trinkgeld an einzelne Teams | – | – | – | – | – | ◐ | ● |
+| Trinkgeld auch bei Armband- oder Coin-Bezahlung | – | – | – | – | – | ◐ | ● |
+| Aufstellung für die Lohnabrechnung | – | – | – | – | – | ◐ | ◔ |
+| Bonuspunkte als Dankeschön für Trinkgeld | – | – | – | – | – | – | ● |
 | **Team** | | | | | | | |
 | Dienstplan und Schichttausch | – | – | – | ● | – | – | ● |
 | Mindestbesetzung pro Becken | – | – | – | – | – | – | ● |
@@ -370,7 +373,11 @@ Fragen und Antworten (jede Antwort max. 2 Sätze):
 5. **Brauchen unsere Gäste eine eigene App?** – Ihre Gäste nutzen eine App im Design Ihres Bades. `[iOS/Android/Web-App vor Livegang festlegen]`
 6. **Wo liegen unsere Daten?** – Auf Servern in Deutschland, DSGVO-konform mit Auftragsverarbeitungsvertrag. `[bestätigen]`
 7. **Wie lange dauert die Einführung?** – Wir richten BäderCockpit gemeinsam mit Ihnen ein und schulen Ihr Team. `[Dauer ergänzen]`
-8. **Wie wird Trinkgeld abgerechnet?** – Das Trinkgeld geht an das Team, das Sie festlegen. Die Abwicklung mit Ihrer Gastronomie besprechen wir gemeinsam. `[nach steuerlicher Prüfung finalisieren]`
+8. **Wie wird Trinkgeld abgerechnet?** – Gäste zahlen in der App mit ihrem eigenen Zahlungsmittel auf ein Trinkgeldkonto Ihres Bades – 100 % gehen an das gewählte Team. Verteilt wird nach einem festen Schlüssel, den Sie festlegen; die steuerliche Behandlung stimmen Sie mit Ihrer Lohnbuchhaltung ab.
+9. **Funktioniert Trinkgeld auch mit Armband oder Coins?** – Ja. Gäste zahlen das Trinkgeld direkt in der App – unabhängig von Ihrem Kassen- und Bezahlsystem.
+10. **Geht Trinkgeld auch in kommunalen Bädern?** – Ja. Im öffentlichen Dienst braucht die Annahme von Trinkgeld die Zustimmung des Arbeitgebers – wie Sie das regeln, besprechen wir im Demo-Gespräch.
+
+**Trinkgeld-Regel:** Punkte nie als Trinkgeld an Mitarbeitende darstellen (vom Bad finanzierte Punkte wären Arbeitslohn, kein steuerfreies Trinkgeld). Keine Steuer- oder Rechtsversprechen („garantiert steuerfrei“) auf der Seite.
 
 **Preise werden auf der Website nirgends erwähnt** – auch nicht im FAQ.
 
@@ -514,7 +521,7 @@ lib/
 | Gründerfoto, Name, Rolle, Zitat | 6.12 |
 | App-Form für Gäste (iOS/Android/Web-App) | FAQ 5 |
 | Einführungsdauer | FAQ 7 |
-| Trinkgeld-Abwicklung nach steuerlicher Prüfung | FAQ 8 |
+| Trinkgeld-Modell (Geld vom Gast, Töpfe pro Team) steuerlich bestätigen lassen | FAQ 8 |
 | Antwortzeit Demo-Anfrage, Empfänger-E-Mail | 6.13 |
 | Firmenname, Rechtsform, Impressum, Datenschutzerklärung | 6.15, Rechtsseiten |
 | Domain baedercockpit.de prüfen und sichern | Kapitel 8 |

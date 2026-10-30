@@ -36,6 +36,14 @@ export const faq = [
   },
   {
     q: "Wie wird Trinkgeld abgerechnet?",
-    a: "Das Trinkgeld geht an das Team, das Sie festlegen. Die Abwicklung mit Ihrer Gastronomie besprechen wir gemeinsam.",
+    a: "Gäste zahlen in der App mit ihrem eigenen Zahlungsmittel auf ein Trinkgeldkonto Ihres Bades – 100 % gehen an das gewählte Team. Verteilt wird nach einem festen Schlüssel, den Sie festlegen; die steuerliche Behandlung stimmen Sie mit Ihrer Lohnbuchhaltung ab.",
+  },
+  {
+    q: "Funktioniert Trinkgeld auch mit Armband oder Coins?",
+    a: "Ja. Gäste zahlen das Trinkgeld direkt in der App – unabhängig von Ihrem Kassen- und Bezahlsystem.",
+  },
+  {
+    q: "Geht Trinkgeld auch in kommunalen Bädern?",
+    a: "Ja. Im öffentlichen Dienst braucht die Annahme von Trinkgeld die Zustimmung des Arbeitgebers – wie Sie das regeln, besprechen wir im Demo-Gespräch.",
   },
 ];

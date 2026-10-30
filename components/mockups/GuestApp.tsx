@@ -1,4 +1,4 @@
-import { ChevronRight, Coffee, Gift, Heart, UserPlus, Waves } from "lucide-react";
+import { ChevronRight, Coffee, Gift, Heart, Ticket, UserPlus, Waves } from "lucide-react";
 import { Avatar, BadMark } from "./Frames";
 
 /** White-Label-Gäste-App. Fiktives Bad, fiktive Gäste. */
@@ -77,7 +77,7 @@ function Rewards() {
     { icon: <Coffee size={18} strokeWidth={2} />, t: "Gratis-Kaffee", s: "Kiosk", p: "300 P", ok: true },
     { icon: <Gift size={18} strokeWidth={2} />, t: "Snack nach Wahl", s: "Kiosk", p: "450 P", ok: true },
     { icon: <Waves size={18} strokeWidth={2} />, t: "Saunaaufguss", s: "Saunalandschaft", p: "1.500 P", ok: false },
-    { icon: <Heart size={18} strokeWidth={2} />, t: "Trinkgeld fürs Team", s: "200 P = 2 €", p: "200 P", ok: true },
+    { icon: <Ticket size={18} strokeWidth={2} />, t: "Eintritt für Begleitung", s: "Kasse", p: "1.000 P", ok: true },
   ];
   return (
     <div className="flex flex-1 flex-col gap-2.5">
@@ -101,6 +101,7 @@ function Rewards() {
 }
 
 function Tip() {
+  const teams = ["Gastro", "Aufsicht", "Sauna", "Ganzes Team"];
   return (
     <div className="flex flex-1 flex-col gap-3">
       <div className="rounded-2xl bg-white p-4 text-center ring-1 ring-line">
@@ -109,11 +110,23 @@ function Tip() {
             <Avatar key={n} name={n} tone={i} />
           ))}
         </div>
-        <p className="text-[13px] font-bold">Trinkgeld an das Kiosk-Team</p>
+        <p className="text-[13px] font-bold">Trinkgeld an das Gastro-Team</p>
         <p className="text-[10.5px] text-muted">Danke für den tollen Service!</p>
       </div>
+      <div className="flex flex-wrap gap-1.5">
+        {teams.map((t, i) => (
+          <span
+            key={t}
+            className={`rounded-full px-2.5 py-1 text-[10.5px] font-bold ${
+              i === 0 ? "bg-navy text-white" : "bg-white text-navy ring-1 ring-line"
+            }`}
+          >
+            {t}
+          </span>
+        ))}
+      </div>
       <div className="grid grid-cols-3 gap-2">
-        {["1 €", "2 €", "5 €"].map((v, i) => (
+        {["2 €", "5 €", "10 €"].map((v, i) => (
           <div
             key={v}
             className={`rounded-xl py-3 text-center text-[14px] font-black ${
@@ -125,11 +138,11 @@ function Tip() {
         ))}
       </div>
       <div className="flex items-center justify-between rounded-xl bg-eisblau px-3 py-2.5">
-        <span className="text-[11px] font-bold">oder mit Punkten</span>
-        <span className="rounded-lg bg-white px-2 py-1 text-[11px] font-black text-navy ring-1 ring-line">200 P</span>
+        <span className="text-[11px] font-bold">Ihr Dankeschön</span>
+        <span className="rounded-lg bg-white px-2 py-1 text-[11px] font-black text-navy ring-1 ring-line">+50 P</span>
       </div>
       <div className="mt-auto flex items-center justify-center gap-2 rounded-xl bg-petrol py-2.5 text-[12px] font-bold text-white">
-        <Heart size={14} strokeWidth={2.25} /> Danke senden
+        <Heart size={14} strokeWidth={2.25} /> 5 € Danke senden
       </div>
     </div>
   );
