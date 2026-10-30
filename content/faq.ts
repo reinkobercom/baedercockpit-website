@@ -35,6 +35,10 @@ export const faq = [
     a: "Wir richten BäderCockpit gemeinsam mit Ihnen ein und schulen Ihr Team.",
   },
   {
+    q: "Ersetzt BäderCockpit unsere WhatsApp-Gruppe?",
+    a: "Ja. Ihr Team schreibt sich in Team- und Einzelchats direkt in der App – Schichttausch inklusive, getrennt von privaten Messengern.",
+  },
+  {
     q: "Wie wird Trinkgeld abgerechnet?",
     a: "Gäste zahlen in der App mit ihrem eigenen Zahlungsmittel auf ein Trinkgeldkonto Ihres Bades – 100 % gehen an das gewählte Team. Verteilt wird nach einem festen Schlüssel, den Sie festlegen; die steuerliche Behandlung stimmen Sie mit Ihrer Lohnbuchhaltung ab.",
   },

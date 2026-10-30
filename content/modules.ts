@@ -22,8 +22,8 @@ export const modules = [
   {
     id: "dienstplan",
     icon: "calendar",
-    title: "Dienstplan",
-    text: "Dienste planen, tauschen, Mindestbesetzung pro Becken im Blick.",
+    title: "Dienstplan & Team-Chat",
+    text: "Dienste planen und tauschen, im Team chatten – Mindestbesetzung pro Becken im Blick.",
     mockup: "shiftplan",
   },
   {

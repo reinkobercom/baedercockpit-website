@@ -80,6 +80,7 @@ export const featureGroups: { title: string; features: Feature[] }[] = [
     title: "Team",
     features: [
       { id: "dienstplan", label: "Dienstplan und Schichttausch", others: n({ dienstplan: "yes" }), bc: "yes" },
+      { id: "teamchat", label: "Team- und Einzelchats für Mitarbeitende", others: n({ dienstplan: "partial" }), bc: "yes" },
       { id: "mindestbesetzung", label: "Mindestbesetzung pro Becken", others: n({}), bc: "yes" },
       {
         id: "qualifikation",

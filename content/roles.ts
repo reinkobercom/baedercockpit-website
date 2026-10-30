@@ -28,7 +28,7 @@ export const roles: Role[] = [
     benefits: [
       { icon: "layers", title: "Ein Login statt vieler Tools", text: "Dienstplan, Messungen und Gäste an einem Ort." },
       { icon: "users", title: "Team sicher planen", text: "Mindestbesetzung pro Becken, Lücken werden sofort sichtbar." },
-      { icon: "repeat", title: "Schichttausch ohne Telefonkette", text: "Das Team tauscht, Sie geben frei." },
+      { icon: "message", title: "Team-Chat und Schichttausch", text: "Statt WhatsApp-Gruppe und Telefonkette – Sie geben frei." },
     ],
     mockup: "cockpit",
   },

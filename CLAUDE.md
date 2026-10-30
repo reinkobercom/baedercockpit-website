@@ -18,7 +18,7 @@ Baue einen hochwertigen, sehr aufgeräumten **One-Pager** (plus Impressum und Da
 |---|---|---|
 | **Gäste-App** (White Label) | Punkte pro Besuch und für Empfehlungen, Einlösung am Kiosk/in der Gastro | Mehr Besuche pro Gast, höherer Umsatz pro Besuch |
 | **Trinkgeld** | Gäste geben per App Geld als Trinkgeld an ein Team ihrer Wahl (unabhängig von Armband/Coins); Bonuspunkte gibt es nur als Dankeschön, Punkte sind **kein** Trinkgeld | Wertschätzung für Personal, das heute leer ausgeht |
-| **Dienstplan** | Dienste einsehen, planen, tauschen; Mindestbesetzung pro Becken | Weniger Telefonketten, sichere Aufsicht |
+| **Dienstplan & Team-Chat** | Dienste einsehen, planen, tauschen; Mindestbesetzung pro Becken; interne Mitarbeiterkommunikation mit Team- und Einzelchats | Weniger Telefonketten und WhatsApp-Gruppen, sichere Aufsicht |
 | **Betriebstagebuch** | Messungen (freies/gebundenes Chlor, pH, Redox) nach DIN 19643, Erinnerungen, Hinweise bei Grenzwerten | Lückenlose Dokumentation, schnelle Reaktion |
 
 **Positionierung:** BäderCockpit ersetzt **keine Kasse**. Es dockt an bestehende Kassen- und Zutrittssysteme an. Botschaft: *„Ihre Kasse bleibt. Ihr Bad bekommt ein Cockpit.“*
@@ -195,7 +195,7 @@ Keine Fremdlogos, keine Kundenlogos.
 |---|---|---|---|
 | 1 | **Gäste-App** | Punkte für jeden Besuch und jede Empfehlung – im Design Ihres Bades. | Smartphone: Punktestand, Prämien, „Freund einladen“ |
 | 2 | **Trinkgeld** | Gäste geben Trinkgeld per App – direkt an das Team ihrer Wahl. | Smartphone: „Trinkgeld an das Gastro-Team“, Team-Auswahl (Gastro / Aufsicht / Sauna / Ganzes Team), Beträge 2 € / 5 € / 10 €, Zahlungsarten PayPal / Apple Pay / Google Pay / Karte (keine Punkte im Trinkgeld-Screen) |
-| 3 | **Dienstplan** | Dienste planen, tauschen, Mindestbesetzung pro Becken im Blick. | Tablet/Desktop: Wochenplan, eine Tauschanfrage, Hinweis „Sportbecken 14–16 Uhr: 1 Aufsicht fehlt“ |
+| 3 | **Dienstplan & Team-Chat** | Dienste planen und tauschen, im Team chatten – Mindestbesetzung pro Becken im Blick. | Tablet/Desktop: Wochenplan, eine Tauschanfrage, Chat „Team Aufsicht“, Hinweis „Sportbecken 14–16 Uhr: 1 Aufsicht fehlt“ |
 | 4 | **Betriebstagebuch** | Messungen nach DIN 19643 – mit Erinnerung und Hinweis bei Abweichung. | Smartphone/Tablet: Messung erfassen (freies Chlor, gebundenes Chlor, pH, Redox), Verlaufskurve, Warnhinweis gelb |
 
 ### 6.6 Rollen-Auswähler (Herzstück)
@@ -213,7 +213,7 @@ Keine Fremdlogos, keine Kundenlogos.
 Headline: *Ihr Betrieb und Ihr gesamtes Team auf einen Blick.*
 - **Ein Login statt vieler Tools** – Dienstplan, Messungen und Gäste an einem Ort.
 - **Team sicher planen** – Mindestbesetzung pro Becken, Lücken werden sofort sichtbar.
-- **Schichttausch ohne Telefonkette** – das Team tauscht, Sie geben frei.
+- **Team-Chat und Schichttausch** – statt WhatsApp-Gruppe und Telefonkette – Sie geben frei.
 Mockup: Cockpit-Übersicht.
 
 **2 · Geschäftsführung, Stadtwerke, Träger** (Icon: Landmark)
@@ -251,7 +251,7 @@ Mockup: Gäste-App mit Prämien.
 - H2 (Weiß): **Aus vier Insellösungen wird eine Plattform.**
 - Layout zweispaltig:
   - **Links „Heute“:** 5 verstreute, leicht gedrehte, entsättigte Karten (Opacity 60 %): *Excel-Dienstplan · WhatsApp-Gruppe · Papier-Betriebstagebuch · Stempelkarte · Trinkgeldglas*
-  - **Rechts „Mit BäderCockpit“:** eine einzige, klare weiße Karte mit dem Logo und vier Häkchen: *Dienstplan & Tausch · Betriebstagebuch · Gäste-App & Punkte · Trinkgeld*
+  - **Rechts „Mit BäderCockpit“:** eine einzige, klare weiße Karte mit dem Logo und vier Häkchen: *Dienstplan, Tausch & Chat · Betriebstagebuch · Gäste-App & Punkte · Trinkgeld*
 - Animation beim Einscrollen: Die verstreuten Karten „sortieren“ sich und gleiten in die rechte Karte (einmalig, reduziert bei `prefers-reduced-motion`).
 - Unter der Grafik eine Zeile: *Ein Login. Ein Ansprechpartner. Ein Vertrag.*
 
@@ -289,6 +289,7 @@ Mockup: Gäste-App mit Prämien.
 | Bonuspunkte als Dankeschön für Trinkgeld | – | – | – | – | – | – | ● |
 | **Team** | | | | | | | |
 | Dienstplan und Schichttausch | – | – | – | ● | – | – | ● |
+| Team- und Einzelchats für Mitarbeitende | – | – | – | ◐ | – | – | ● |
 | Mindestbesetzung pro Becken | – | – | – | – | – | – | ● |
 | Qualifikationsnachweise mit Ablaufdatum | – | – | – | ◐ | – | – | ◔ |
 | **Technik** | | | | | | | |
@@ -373,6 +374,7 @@ Fragen und Antworten (jede Antwort max. 2 Sätze):
 5. **Brauchen unsere Gäste eine eigene App?** – Ihre Gäste nutzen eine App im Design Ihres Bades. `[iOS/Android/Web-App vor Livegang festlegen]`
 6. **Wo liegen unsere Daten?** – Auf Servern in Deutschland, DSGVO-konform mit Auftragsverarbeitungsvertrag. `[bestätigen]`
 7. **Wie lange dauert die Einführung?** – Wir richten BäderCockpit gemeinsam mit Ihnen ein und schulen Ihr Team. `[Dauer ergänzen]`
+7a. **Ersetzt BäderCockpit unsere WhatsApp-Gruppe?** – Ja. Ihr Team schreibt sich in Team- und Einzelchats direkt in der App – Schichttausch inklusive, getrennt von privaten Messengern.
 8. **Wie wird Trinkgeld abgerechnet?** – Gäste zahlen in der App mit ihrem eigenen Zahlungsmittel auf ein Trinkgeldkonto Ihres Bades – 100 % gehen an das gewählte Team. Verteilt wird nach einem festen Schlüssel, den Sie festlegen; die steuerliche Behandlung stimmen Sie mit Ihrer Lohnbuchhaltung ab.
 9. **Funktioniert Trinkgeld auch mit Armband oder Coins?** – Ja. Gäste zahlen das Trinkgeld direkt in der App – unabhängig von Ihrem Kassen- und Bezahlsystem.
 10. **Geht Trinkgeld auch in kommunalen Bädern?** – Ja. Im öffentlichen Dienst braucht die Annahme von Trinkgeld die Zustimmung des Arbeitgebers – wie Sie das regeln, besprechen wir im Demo-Gespräch.

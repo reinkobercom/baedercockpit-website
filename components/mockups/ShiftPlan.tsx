@@ -1,4 +1,4 @@
-import { Repeat, TriangleAlert } from "lucide-react";
+import { MessageCircle, Repeat, TriangleAlert } from "lucide-react";
 import { Avatar } from "./Frames";
 
 type Shift = "A" | "K" | "T" | null;
@@ -84,6 +84,16 @@ export function ShiftPlan() {
           <p className="truncate text-[10.5px] text-muted">Murat → Lena · Do, Aufsicht Früh</p>
         </div>
         <span className="rounded-lg bg-navy px-2.5 py-1.5 text-[10px] font-bold text-white">Freigeben</span>
+      </div>
+      <div className="mt-2 flex items-center gap-3 rounded-xl bg-white p-3 ring-1 ring-line">
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-eisblau text-petrol">
+          <MessageCircle size={15} strokeWidth={2.25} />
+        </span>
+        <div className="min-w-0 flex-1 leading-tight">
+          <p className="text-[11.5px] font-bold">Team Aufsicht</p>
+          <p className="truncate text-[10.5px] text-muted">Lena: Ich übernehme Do früh, passt!</p>
+        </div>
+        <span className="rounded-full bg-petrol px-2 py-0.5 text-[10px] font-bold text-white">3</span>
       </div>
       <p className="mt-2 text-right text-[10px] text-muted/80">Beispieldaten</p>
     </div>

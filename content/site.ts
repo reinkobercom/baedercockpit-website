@@ -62,7 +62,7 @@ export const beforeAfter = {
   eyebrow: "Vorher · Nachher",
   title: "Aus vier Insellösungen wird eine Plattform.",
   before: ["Excel-Dienstplan", "WhatsApp-Gruppe", "Papier-Betriebstagebuch", "Stempelkarte", "Trinkgeldglas"],
-  after: ["Dienstplan & Tausch", "Betriebstagebuch", "Gäste-App & Punkte", "Trinkgeld"],
+  after: ["Dienstplan, Tausch & Chat", "Betriebstagebuch", "Gäste-App & Punkte", "Trinkgeld"],
   closing: "Ein Login. Ein Ansprechpartner. Ein Vertrag.",
 };
 
